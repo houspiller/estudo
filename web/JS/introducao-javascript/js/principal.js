@@ -1,3 +1,5 @@
+var titulo = document.querySelector("#titulo");
+titulo.textContent = "Nutricionista Aparecida";
 
 var pacientes = document.querySelectorAll(".paciente");
 
@@ -26,4 +28,17 @@ for (var i = 0 ; i < pacientes.length; i++) {
     tdImc.textContent = "Altura Inválida!";
     trPaciente.style.backgroundColor = "lightcoral";
   }
-}
+} 
+
+titulo.addEventListener("click", function (){
+  console.log("eu fui clicado!!!");
+
+});
+
+var botaoAdicionar = document.querySelector("#adicionar-paciente");
+botaoAdicionar.addEventListener("click",function(event){
+
+  event.preventDefault();
+  console.log("Sou um botao e fui clicado");
+
+});
