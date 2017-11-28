@@ -2,6 +2,14 @@ main h1 {
   text-align: center;
   color: #FFFFFF;
   background-color: #851944;
+  padding: 25px;
+  margin: 0px;
+  border-bottom: 10px solid #000000;
+}
+
+main div {
+  width: 720px;
+  margin: auto;
 }
 
 h1, h2 {
@@ -11,7 +19,8 @@ h1, h2 {
 body {
   font-family: "Crimson Text", serif;
   background-color: #F2FFFC;
-  font-size: 120%
+  font-size: 120%;
+  line-height: 1.5;
 }
 
 p {
@@ -20,11 +29,16 @@ p {
 
 blockquote {
   background-color: #D9E5E3;
+  border: 10px solid #C2CCCA;
+  width: 250px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 aside {
   background-color: #3C1D3D;
   color: #F2FFFC;
+  text-align: center; 
 }
 
 nav a{
@@ -34,4 +48,8 @@ nav a{
 footer {
   background-color: #000000;
   color: #F2FFFC;
+}
+
+blockquote, aside, footer {
+  padding: 20px;  
 }
